@@ -4,8 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	// "math"
-	// "strings"
 )
 
 func main() {
@@ -33,10 +31,4 @@ func part1(f *os.File) {
 func part2(f *os.File) {
 	fmt.Println("Part 2")
 	fmt.Println("======")
-
-	scanner := bufio.NewScanner(f)
-	for scanner.Scan() {
-		s := scanner.Text()
-		fmt.Println(s)
-	}
 }

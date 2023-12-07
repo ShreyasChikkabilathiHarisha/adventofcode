@@ -4,8 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-
-	// "math"
 	"strconv"
 	"strings"
 )
